@@ -1,0 +1,168 @@
+
+.banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    text-align: center;
+    margin-top: 40px;
+}
+.banner h1{
+    color: white;
+    font-size: 20pt;
+    padding-bottom: 30px;
+}
+.content h1{
+    font-size: 17pt;
+}
+.banner a{
+    color: white;
+    background: rgba(255, 115, 0, 0.87);
+    border-radius: 25px;
+    padding: 15px 40px;
+    text-decoration: none !important;
+}
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: orange;
+    border-radius: 20px;
+    border: 2px orange solid !important;
+    padding:15px 10px;
+    margin-left: 32px;
+    margin-right: 30px;
+    text-align: center;
+    width: 100px;
+   
+}
+#a1, #a2, #a3, #a4 {
+    font-weight: 500 !important;
+    margin: 0px 22px;
+}
+.cart{
+    text-align: end;
+    border-bottom: 1px silver solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.logo{
+    max-width: 50%;
+}
+.product{
+    text-align: center;
+}
+.content h1{
+    text-align: center;
+}
+.star{
+    color: rgb(255, 238, 0);
+}
+.content .comment{
+    color: rgb(146, 144, 144);
+    font-size: 10pt;
+}
+.content .cart1 a{
+    color: brown;
+    border: 1px brown solid;
+    text-decoration: none;
+}
+.content .cart1 a:hover{
+    background: greenyellow;
+    border: 1px brown solid;
+    text-decoration: none;
+}
+.cost{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content{
+    background: rgb(230, 223, 223);
+    padding-bottom: 80px;
+}
+.item{
+    background: white;
+    border: 10px white solid;
+    margin-top: 20px;
+}
+.content h1{
+    padding-top: 50px;
+}
+.f1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.f1 img{
+    padding-bottom: 40px;
+}
+form{
+    text-align: center;
+}
+form #email{
+    width: 80%;
+    font-size: 12px;
+    padding: 5px 20px;
+    color: rgb(139, 135, 135);
+    border-bottom: 2px chartreuse solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+form .icon{
+    color: orange;
+    position: absolute;
+    padding-top: 5px;
+
+}
+form #join{
+    margin-top: 10px;
+    background: rgb(248, 94, 4);
+    border-color: rgb(248, 94, 4);
+    border-style: solid;
+    color: white;
+    padding: 5px 40px;
+}
+.f2{
+    background: rgb(43, 42, 42);
+    color: rgb(139, 135, 135);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.navbar-toggler {
+    border: 2px orange solid !important;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+.banner h1{
+    color: white;
+    font-size: 60pt;
+    padding-bottom: 30px;
+}
+.banner{
+    padding-top: 120px;
+}
+.content h1{
+    font-size: 40px;
+}
+.content a{
+    padding: 5px 15px;
+}
+.content{
+    text-align: unset;
+}
+form #email{
+width: 50%;
+font-size: 14pt;
+margin-right: 40px;
+}
+form .icon{
+padding-top: 15px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    padding-left: 15px;  
+}
+}
